@@ -30,7 +30,9 @@
 
   <!-- Link Icon -->
   <link rel="icon" href="https://previews.123rf.com/images/imagevectors/imagevectors1606/imagevectors160600550/59163390-icono-blanco-de-auriculares-en-el-bot%C3%B3n-negro-aislado-en-blanco.jpg">
-  <link rel="stylesheet" href="assets/images/style.css">
+  <link rel="stylesheet" href="assets/images/styles/style.css">
+  <!-- axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 
@@ -39,7 +41,7 @@
     <header class="header">
       <nav class="navbar">
         <div>
-        <img src="https://previews.123rf.com/images/imagevectors/imagevectors1606/imagevectors160600550/59163390-icono-blanco-de-auriculares-en-el-bot%C3%B3n-negro-aislado-en-blanco.jpg" alt="Representacion de audifonos">
+        <img src="https://previews.123rf.com/images/imagevectors/imagevectors1606/imagevectors160600550/59163390-icono-blanco-de-auriculares-en-el-bot%C3%B3n-negro-aislado-en-blanco.jpg" alt="Representacion de audifonos" id="current-song-img">
         </div>
         <ul>
           <li>Inicio</li>
@@ -49,51 +51,28 @@
 
       </nav>
     </header>
-    <main class="main">
+    <main>
       <footer>
       <section>
         <h1>lista de reproduccion</h1>
       
       </section>
-      <section>
+      <section id="track-list">
         <div>
-          <img src="https://upload.wikimedia.org/wikipedia/en/4/48/TOP_Stressed_Out.jpg" alt="reprentacion de musica">
-          <li>twenty one pilots</li>
-          <li>stressed out</li>
-          <li>3:42</li>
         </div>
-        <div>
-          <img src="https://selecciones.com.mx/wp-content/uploads/2023/07/Bugambilia.png" alt="Bugambilia">
-          <ul>
-            <li>Bugambilia</li>
-            <li>Nasa Histoires</li>
-            <li>3:14</li>
-          </ul>
-        </div>
-        <div>
-          <img src="https://photos.bandsintown.com/large/14520126.jpeg" alt="From the start">
-          <ul>
-            <li>From The Start</li>
-            <li>Good Kid</li>
-            <li>2:30</li>
-          </ul>
-        </div>
-        <div>
-          <img src="https://pics.filmaffinity.com/Elton_John_I_m_Still_Standing_Vaideo_musical-580926959-large.jpg" alt="Im Still Standing">
-          <ul>
-           <li>Im Still Standing</li>
-           <li>Elton Johm</li>
-           <li>3:03</li>
-          </ul>
-        </div>
-
+        
       </section>
+      <div>
+        <audio src="" id="current-song-audio" controls autoplay></audio>
+      </div>
     </main>
-    <footer>
-      <section>
-       <div>
-        <img src="https://upload.wikimedia.org/wikipedia/en/4/48/TOP_Stressed_Out.jpg" alt="representacion de musica">
-       </div>
+      <section class="nav2">
+        <section>
+          <button>
+            <img src="assets/images/jugar (1).png" alt="" id="pause">
+          </button>
+        </section>
+      
       </section>
 
     </footer>

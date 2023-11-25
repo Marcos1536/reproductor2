@@ -1,31 +1,53 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-size: 12pt;
+    font-size: 16pt;
     border: none;
     outline: none;
     text-decoration: none;
     list-style: none;
+
 }
 body{
     background-color: #012626;
     overflow-x: hidden;
     color: #B2A991;
+    display: flex;
 }
 h1{
     font-family: ubuntu;
     font-size: 1rem;
     font-weight: bolder;
-    text-align: center ;
+    text-align: center 1.2rem;
 }
 li{font-family: ubuntu;
     font-size: 1rem;
     font-weight: bolder;
-    text-align: left;
+    text-align: left
 }
+    
+    
 img{
     width: 35%;
     border-radius: 10% 10% 10% 10%;
-    
+    display: flex;
+    align-items: center ;
 }
+button{
+    width: 10rem;
+    border-radius: 50%;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    
+
+
+
+}
+.img-nav{
+    width: 20rem;
+    box-sizing: border-box;
+    display: flex;
+}
+
