@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12pt;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #012626;
+    overflow-x: hidden;
+    color: #B2A991;
+}
+h1{
+    font-family: ubuntu;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center ;
+}
+li{font-family: ubuntu;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: left;
+}
+img{
+    width: 35%;
+    border-radius: 10% 10% 10% 10%;
+    
+}
